@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#myVideo {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.header-wrapper {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons button {
+    width: 140px;
+    padding: 8px 0;
+    border: 2px solid wheat;
+    color: #fff;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+.links {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.main {
+    padding-top: 1080px;
+}
+
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6b/Bluelock_logo.png);
+    
+   
+}
+.img-isagi{
+    width: 400px;
+    height: 400px;
+    
+}
+
+.text-main{
+    bottom: 50px;
+}
